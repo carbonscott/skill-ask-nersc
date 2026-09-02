@@ -84,4 +84,4 @@ If `NERSC_DOCS_ROOT` is still empty after sourcing, offer to run `./setup.sh` in
 - The docs are from the official `NERSC/nersc.gitlab.io` repository (GitLab)
 - File format is Markdown (`.md`)
 - The documentation covers Perlmutter — older systems (Cori, Edison) may still appear in some pages; note this in answers if relevant
-- To update the index after a `git pull`: `docs-index index "$NERSC_DOCS_ROOT" --incremental --ext md`
+- To update the index after a `git pull`: `source /path/to/this/skill/env.sh && docs-index index "$NERSC_DOCS_ROOT" --incremental --ext md`
